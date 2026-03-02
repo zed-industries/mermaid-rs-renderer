@@ -92,9 +92,9 @@ Performance on larger diagrams:
 
 | Diagram | Nodes | mmdr | mermaid-cli | Speedup |
 |:--------|------:|-----:|------------:|--------:|
-| flowchart (small) | 10 | 3.38 ms | 1,910 ms | 565x |
-| flowchart (medium) | 50 | 8.71 ms | 2,018 ms | 232x |
-| flowchart (large) | 200 | 47.00 ms | 2,276 ms | 48x |
+| Flowchart (small) | 10 | 3.38 ms | 1,910 ms | 565x |
+| Flowchart (medium) | 50 | 8.71 ms | 2,018 ms | 232x |
+| Flowchart (large) | 200 | 47.00 ms | 2,276 ms | 48x |
 
 The speedup advantage decreases for very large diagrams as actual layout computation becomes more significant relative to browser startup overhead. Still, mmdr remains **100x+ faster** even for 200-node diagrams.
 
